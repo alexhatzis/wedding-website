@@ -41,6 +41,7 @@ body {
   font-weight: $light;
   color: $txt-primary;
   -webkit-text-size-adjust: 100%;
+  background-color: #ff415c00;
   //fix for iOS
 }
 *:focus {
@@ -290,12 +291,13 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
+  background-color: $navigation-color-faded
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
   z-index: 999;
   width: 100%;
+  background-color: $navigation-color
 }
 header {
   padding: 50px 0;
@@ -726,7 +728,7 @@ Engagement Pics
 Embed video
 ========================================================================== */
 #video-bg {
-  height: 300px;
+  height: 600px;
 }
 #video-content {
   width: 100%;
