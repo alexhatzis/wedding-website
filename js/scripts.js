@@ -13,7 +13,7 @@ $(document).ready(function () {
         offset: '75%'
     });
     $('.wp3').waypoint(function () {
-        $('.wp3').addClass('animated fadeInLeft');
+        $('.wp3').addClass('animated fadeInUp');
     }, {
         offset: '75%'
     });
