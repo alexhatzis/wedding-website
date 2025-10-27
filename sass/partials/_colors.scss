@@ -1,9 +1,12 @@
 // Colours partial
+
+// Autumn Color Palette
 $dark-gray-color: #372e2fff;
 $dark-red-color: #883736ff;
 $dark-orange-color: #cb653fff;
 $regular-orange-color: #dd934aff;
 $tan-color: #e4b996ff;
+
 // Navigation
 $navigation-color: $dark-red-color;
 $navigation-color-faded: #8837369c;
@@ -14,25 +17,25 @@ $txt-secondary: #5e5858;
 // heading font
 $txt-light: #c2c0c1;
 // header/hero
-$txt-accent: #e4a96f;
-$form-placeholder: #e4a96f;
+$txt-accent: $tan-color;
+$form-placeholder: $tan-color;
 // form placeholder text
 // Global colours
-$accent-color: #dd934a;
+$accent-color: $regular-orange-color;
 // global accent colour
-$accent-color-hover: #cb653f;
+$accent-color-hover: $dark-orange-color;
 // global accent colour hover
 $white-color: #fff;
 $black-color: #000;
 // Typography colours
 $h2-color: #e9c7ab;
-$h3-color: #883736;
-$h5-color: #883736;
+$h3-color: $dark-red-color;
+$h5-color: $dark-red-color;
 // Layout colours
 $section-light: $white-color;
-$section-dark: $white-color;
-$to-top-bg: #cb653f;
-$footer-primary: #372e2f;
+$section-dark: $black-color;
+$to-top-bg:$dark-orange-color;
+$footer-primary: $dark-gray-color;
 $footer-secondary: #5e5858;
 // Keylines
 $keyline-color: #f2dbcb;
