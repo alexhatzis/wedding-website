@@ -3,9 +3,22 @@
 
 // Fonts
 
-$sans-serif: 'Open Sans', sans-serif;
+@font-face {
+    font-family: 'Nitemare';
+    src: url('/Users/ahatzis/Documents/wedding-website/fonts/NITEMARE.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Margarita';
+    src: url('/Users/ahatzis/Documents/wedding-website/fonts/CfMargaritaDemoRegular-yYBzM.ttf') format('truetype');
+}
+
+
+$sans-serif: 'Nitemare', serif;
 $serif: Merriweather, Georgia, 'Times New Roman', serif;
-$accent-font: 'Nunito', sans-serif;
+$accent-font: 'Margarita', serif;
+
+
 
 // Weights
 
@@ -17,12 +30,12 @@ $bold: 700;
 // Sizes
 
 $font-size-h1: 60px;
-$font-size-h2: 40px;
-$font-size-h3: 24px;
-$font-size-h4: 18px;
-$font-size-h5: 15px;
-$font-size-p: 15px;
-$nav-font-size: 13px;
+$font-size-h2: 60px;
+$font-size-h3: 48px;
+$font-size-h4: 36px;
+$font-size-h5: 24px;
+$font-size-p: 24px;
+$nav-font-size: 20px;
 $blog-post-title: 11px;
 
 // Responsive Sizes
