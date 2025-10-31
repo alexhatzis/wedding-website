@@ -14,9 +14,9 @@
 }
 
 
-$sans-serif: 'Nitemare', serif;
+$sans-serif: 'Margarita', serif;
 $serif: Merriweather, Georgia, 'Times New Roman', serif;
-$accent-font: 'Margarita', serif;
+$accent-font: 'Nitemare', serif;
 
 
 
@@ -60,12 +60,15 @@ p {
 
 h1 {
   font-size: $font-size-h1;
+  font-family: $accent-font;
 }
 
 h2 {
   font-size: $font-size-h2;
   font-weight: $light;
   color: $h2-color;
+  font-family: $accent-font;
+
 }
 
 h3 {
@@ -75,10 +78,14 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: $base-line-height;
+    font-family: $accent-font;
+
 }
 
 h4 {
   font-size: $font-size-h4;
+  font-family: $accent-font;
+
 }
 
 h5 {
@@ -86,4 +93,10 @@ h5 {
   color: $h5-color;
   text-transform: uppercase;
   font-weight: $semibold;
+  font-family: $accent-font;
+
+}
+
+formfont {
+  font-family:'Times New Roman', Times, serif;
 }

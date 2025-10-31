@@ -103,10 +103,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4 hidden-xs"></div>
+            <!--<div class="col-sm-4 hidden-xs"></div>
             <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
                                                            class="btn btn-accent btn-large rsvp-btn">Submit Contact Info</a></div>
-            <div class="col-sm-4 hidden-xs"></div>
+            <div class="col-sm-4 hidden-xs"></div>-->
         </div>
     </div>
     <div class="down-arrow floating-arrow"><a href="#rsvp"><i class="fa fa-angle-down"></i></a></div>
@@ -123,19 +123,10 @@
         <div class="row text-center">
 
             <h5>We summon you</h5>
-            <div class="col-md-2 text-center">
-                <a>
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/pumpkins.png" alt=""/>
-                    </div>
-                </a>
-            </div>
+            <div class="col-md-2 text-center"></div>
             <div class="col-md-8 text-center">
                 <p>to a magical night of love and laugher as we tie 
-                    the knot on All Hallow’s Eve, 2026. As the veil between our 
+                    the knot on All Hallow’s Eve. As the veil between our 
                     two worlds thins, we’ll gather to celebrate our spellbinding 
                     (and legally binding) union </p>
             </div>
@@ -261,46 +252,48 @@
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
-                    <div class="row">  
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
+                    <formfont>
+                        <div class="row">  
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-user"></i><input name="name" class=""
+                                                                    placeholder="Your name"
+                                                                    required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-key"></i><input name="invite_code" id="invite_code"
+                                                                    class=""
+                                                                    placeholder="Invite code"
+                                                                    required>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-key"></i><input name="invite_code" id="invite_code"
-                                                                class=""
-                                                                placeholder="Invite code"
-                                                                required>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                        placeholder="Your email"
+                                                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-envelope"></i><input name="mailing_address" class=""
+                                                                    placeholder="Your mailing address"
+                                                                    required>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
-                            </div>
+                        <div class="row">
+                            <div class="col-md-12" id="alert-wrapper"></div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-house"></i><input name="mailing_address" class=""
-                                                                  placeholder="Your mailing address"
-                                                                  required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper"></div>
-                    </div>
-                    <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
-                    </button>
+                        <button class="btn-fill rsvp-btn">
+                            Yes,
+                            that's me!
+                        </button>
+                    </formfont>
                 </form>
             </div>
         </div>
